@@ -1,0 +1,32 @@
+--CREATE DATABASE DjurDb;
+--USE DjurDb;
+--CREATE TABLE DjurTbl (
+--	"Id" int Primary key,
+--	"First Name" nvarchar(max) not null
+--	);
+--INSERT INTO DjurTbl
+--VALUES  (1, 'Hamster'),
+--		(2, 'Hund'),
+--		(3, 'Katt'),
+--		(4, 'Kanin');
+--SELECT * FROM DjurTbl;
+--SELECT * FROM DjurTbl
+--WHERE "First Name" LIKE '%a%';
+--Use master;
+--DROP DATABASE DjurDb;
+--CREATE DATABASE KlassenDb;
+--USE KlassenDb;
+--CREATE TABLE KlassenTbl (
+--"Id" int Primary Key,
+--"First Name" nvarchar(max) not null,
+--"Last Name" nvarchar(max) not null,
+--"Ålder" int,
+--"Hemort" nvarchar(max) not null
+--);
+--INSERT INTO KlassenTbl
+--VALUES  (1, 'Jesper', 'Whendin', 29, 'Kungsbacka'),
+--		(2, 'Joseph', 'Rashid-Maalouf', 30, 'Göteborg'),
+--		(3, 'Gabriel', 'Raimondo', 31, 'Skövde'),
+--		(4, 'Mikael', 'Björnänger', 35, 'Göteborg'),
+--		(5, 'Tyr', 'Hvidfeldt', 37, 'Göteborg');
+SELECT * FROM KlassenTbl;
